@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "author": "Kuvshinow Egor",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev -p 3004",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27827328.bc9ddc0",
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@fontsource/cardo": "^4.5.9",
+    "@fontsource/open-sans": "^4.5.13",
+    "@pinia/nuxt": "^0.4.5",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.3",
+    "sass": "^1.56.1",
+    "sharp": "^0.31.2"
+  }
+}
